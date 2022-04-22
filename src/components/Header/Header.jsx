@@ -6,7 +6,7 @@ import {StyledHeader} from './Header.styled';
 const Header = () => {
   return (
     <StyledHeader>
-      <Typography component="h2" variant="h6">
+      <Typography component="h3" variant="h6">
           <Link className="header-link" to="/">Popular Events</Link>
       </Typography>
     </StyledHeader>

@@ -12,9 +12,9 @@ const EventDetail = () => {
                 {loading && <div className='loading'>Loading...</div>}
                 {(data?.events) && 
                         <div className='data-container'>
-                            <div className='name'>Event Name: {data.events[0].name} </div>
-                            <div className='desc'>Event Description: {data.events[0].description} </div>
-                            <div className='startTime'>Start Time: {data.events[0].start_datetime} </div>
+                            <div className='name'><strong>Event Name: </strong>{data.events[0].name} </div>
+                            <div className='desc'><strong>Event Description:</strong> {data.events[0].description} </div>
+                            <div className='startTime'><strong>Start Time:</strong>{data.events[0].start_datetime} </div>
                         </div>
                 }
                 {error && <div className="error-container">{error}</div>}
