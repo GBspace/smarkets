@@ -56,7 +56,6 @@ describe('EventsPage', ()=>{
         const loadingDiv = wrapper.find('.loading');
         const eventComponent = wrapper.children().find('Event');
         expect(eventComponent).toHaveLength(0);
-        expect(wrapper.find('.events-container').text()).toBe(' No Events scheduled yet!! ');
         expect((loadingDiv).exists()).toBe(false);
     });
 

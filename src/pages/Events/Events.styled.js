@@ -1,8 +1,8 @@
 import { styled } from "@mui/system";
 
-export const HeaderDiv = styled('div')(({theme}) => ({
+export const StyledEvents = styled('div')(({theme}) => ({
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
+    alignSelf: 'flex-start',
     padding: '10px',
   }));
