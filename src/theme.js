@@ -1,5 +1,4 @@
 import {createTheme} from '@mui/material/styles';
-import {red} from '@material-ui/core/colors';
 
 // A custom theme for this app
 const customTheme = createTheme({
@@ -9,18 +8,6 @@ const customTheme = createTheme({
         main: '#696969',
         contrastText: '#282c34'
       },
-    //   secondary: {
-    //     main: '#19857b',
-    //   },
-    //   error: {
-    //     main: red.A400,
-    //   },
-    //   background: {
-    //     default: '#282c34',
-    //   },
-    //   action:{
-    //       focus: '#e6e6e6'
-    //   }
     },
     overrides: {
       MuiPaper: {

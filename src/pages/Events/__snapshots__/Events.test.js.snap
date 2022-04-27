@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventsPage renders correctly when events are fetched 1`] = `
+<Styled(div)>
+  <div
+    className="events-container"
+    data-testid="events"
+  >
+    <WithStyles(ForwardRef(List))>
+      <Event
+        id={1}
+        key="1"
+      />
+      <Event
+        id={2}
+        key="2"
+      />
+      <Event
+        id={3}
+        key="3"
+      />
+    </WithStyles(ForwardRef(List))>
+  </div>
+</Styled(div)>
+`;

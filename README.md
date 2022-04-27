@@ -70,18 +70,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+The application is created as an extremely simplified view of the original smarkets page listing the events and taking to the detailed page for further information. 
 
----------------
+Application is styled using material UI.
+Well tested application with 100% code coverage.
 
-Pending tasks:
 
-define error scenarios for useFetch component
-Theme
-styling
-test cases
-typescript
-deploy to cloud and share the src code
-suspense
-error boundaries
+
+
+
 
 

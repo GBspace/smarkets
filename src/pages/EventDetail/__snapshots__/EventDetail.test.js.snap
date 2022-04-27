@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventDetailPage renders correctly when events are loading 1`] = `
+<Styled(div)>
+  <div
+    data-testid="eventDetail"
+  >
+    <div
+      className="loading"
+    >
+      Loading...
+    </div>
+  </div>
+</Styled(div)>
+`;
+
+exports[`EventDetailPage renders correctly when events details are fetched 1`] = `
+<Styled(div)>
+  <div
+    data-testid="eventDetail"
+  >
+    <div
+      className="data-container"
+    >
+      <div
+        className="name"
+      >
+        <strong>
+          Event Name: 
+        </strong>
+        IPL
+         
+      </div>
+      <div
+        className="desc"
+      >
+        <strong>
+          Event Description:
+        </strong>
+         
+        Cricket League
+         
+      </div>
+      <div
+        className="startTime"
+      >
+        <strong>
+          Start Time:
+        </strong>
+        April 2022
+         
+      </div>
+    </div>
+  </div>
+</Styled(div)>
+`;

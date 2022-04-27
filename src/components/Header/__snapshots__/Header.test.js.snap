@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component renders correctly 1`] = `
+<Styled(div)>
+  <WithStyles(ForwardRef(Typography))
+    component="h2"
+    variant="h5"
+  >
+    <Link
+      className="header-link"
+      to="/"
+    >
+      Popular Events
+    </Link>
+  </WithStyles(ForwardRef(Typography))>
+</Styled(div)>
+`;
