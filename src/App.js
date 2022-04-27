@@ -5,7 +5,6 @@ import Header from './components/Header/Header';
 import React from 'react';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 import { useHistory } from 'react-router-dom';
-import {AppRoot} from './App.styled';
 import {customTheme} from './theme';
 import {ThemeProvider} from '@mui/system';
 import Divider from '@mui/material/Divider';
@@ -34,7 +33,7 @@ function App() {
           >
           <Paper elevation={3}>
             <Header/>
-            <Divider/>
+            <br/>
             <Switch>
               <Route exact path="/" component={Events} />
               <Route path="/event/:id" component={EventDetail} />

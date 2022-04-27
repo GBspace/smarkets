@@ -7,17 +7,18 @@ import { StyledEvents } from './Events.styled';
 const Events = () => {
   const isComponentMounted = useRef(true);
   const {data,error,loading} = useFetch('https://api.smarkets.com/v3/popular/event_ids/sport/football/',isComponentMounted,[]);
-  const events = (data && data.popular_event_ids) || [];
+  const events = [1,2,3,4]; //(data && data.popular_event_ids) || [];
+  
     return ( 
       <StyledEvents>
         <div className='events-container' data-testid="events">
-          {loading &&  <div className='loading'>Loading...</div>}
+          {/* {loading &&  <div className='loading'>Loading...</div>} */}
           {data && 
           <List>
             {(events.map(id => <Event key={id} id={id}/>))}
           </List>
           }
-          {error && <div className='error-container'>{error}</div>}
+          {/* {error && <div className='error-container'>{error}</div>} */}
         </div>
       </StyledEvents>
   )
