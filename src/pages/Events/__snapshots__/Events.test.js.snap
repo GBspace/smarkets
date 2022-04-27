@@ -19,6 +19,10 @@ exports[`EventsPage renders correctly when events are fetched 1`] = `
         id={3}
         key="3"
       />
+      <Event
+        id={4}
+        key="4"
+      />
     </WithStyles(ForwardRef(List))>
   </div>
 </Styled(div)>
