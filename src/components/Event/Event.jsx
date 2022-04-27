@@ -8,13 +8,13 @@ import ListItemButton from '@mui/material/ListItemButton';
 const Event = ({id}) => {
   return (
     <StyledEvent>
-      <ListItem>
-        <ListItemButton>
-            <Link to={`/event/${id}`} >
+      <Link to={`/event/${id}`} >
+          <ListItem>
+            <ListItemButton>
               <ListItemText primary={id} />
-            </Link>
-          </ListItemButton>
-      </ListItem>
+            </ListItemButton>
+          </ListItem>
+      </Link>
     </StyledEvent>
   )
 }

@@ -4,5 +4,4 @@ export const StyledEvents = styled('div')(({theme}) => ({
     display: 'flex',
     flexDirection: 'column',
     alignSelf: 'flex-start',
-    padding: '10px',
   }));
